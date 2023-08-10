@@ -9,8 +9,8 @@ import { Reservation, User } from "@prisma/client"
 ;
 
 import Container from "@/app/components/Container";
-import { Heading } from "../../components/Heading";
-import { ListingCard } from "../../components/listings/ListingCard";
+import { Heading } from "../components/Heading";
+import { ListingCard } from "../components/listings/ListingCard";
 
 
 interface ReservationsClientProps {
