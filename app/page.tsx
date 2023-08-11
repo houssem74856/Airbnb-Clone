@@ -1,6 +1,6 @@
 import Container from "./components/Container"
 import getCurrentUser from "./actions/getCurrentUser"
-import { EmptyState } from "./components/EmptyState"
+import EmptyState from "./components/EmptyState"
 import { IListingsParams, getListings } from "./actions/getListings"
 import { ListingCard } from "./components/listings/ListingCard"
 

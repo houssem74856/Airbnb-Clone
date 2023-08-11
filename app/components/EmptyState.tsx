@@ -10,7 +10,7 @@ interface EmptyStateProps {
   showReset?: boolean;
 }
 
-export function EmptyState({
+export default function EmptyState({
   title = "No exact matches",
   subtitle = "Try changing or removing some of your filters.",
   showReset

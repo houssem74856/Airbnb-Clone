@@ -2,7 +2,7 @@ import getCurrentUser from "@/app/actions/getCurrentUser";
 import { getListings } from "@/app/actions/getListings";
 
 import PropertiesClient from "./PropertiesClient";
-import { EmptyState } from "../components/EmptyState";
+import EmptyState from "../components/EmptyState";
 
 const PropertiesPage = async () => {
   const currentUser = await getCurrentUser();

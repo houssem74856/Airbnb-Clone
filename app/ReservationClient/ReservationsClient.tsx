@@ -18,7 +18,7 @@ interface ReservationsClientProps {
   currentUser?: User | null,
 }
 
-export function ReservationsClient ({
+export default function ReservationsClient ({
   reservations,
   currentUser
 }: ReservationsClientProps) {
