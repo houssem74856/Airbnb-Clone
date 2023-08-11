@@ -1,7 +1,7 @@
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import getReservations from "@/app/actions/getReservations";
 
-import ReservationsClient from "../ReservationClient/ReservationsClient";
+import ReservationsClient from "./ReservationsClient";
 import EmptyState from "../components/EmptyState";
 
 const ReservationsPage = async () => {
