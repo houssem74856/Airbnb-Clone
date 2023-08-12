@@ -1,3 +1,5 @@
+'use client'
+
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import { getListings } from "@/app/actions/getListings";
 
